@@ -1,0 +1,90 @@
+.projectScreen {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.projectScreen .container {
+    margin-top: 15vh;
+    width: 90%;
+    height: min-content;
+    min-height: 60vh;
+    display: block;
+    background: rgba(36, 36, 36, 0.4);
+}
+
+.projectScreen .container h2 {
+    margin: 20px;
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.projectScreen .container .projectContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-inline: 20px;
+
+}
+
+.projectScreen .container h2 {
+    display: block;
+    text-align: left;
+}
+
+.projectScreen .container .projectContainer .project {
+    flex-direction: column;
+    justify-content: left;
+    align-items: baseline;
+    min-height: 40vh;
+    width: 100%;
+    border: 1px solid #cccccc8e;
+    border-radius: 10px;
+    background: rgba(36, 36, 36, 0.4);
+    overflow: hidden;
+}
+
+.projectScreen .container .projectContainer .project .content {
+    padding: 20px;
+}
+
+.textDescription {
+    text-align: left;
+    margin-block: 0.5rem;
+    color: white;
+    font-size: 1.2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.imageContainer {
+    display: flex;
+    width: 100%;
+    height: 20vh;
+}
+
+.imageContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.links {
+    display: block;
+    width: 100%;
+    height: 5rem;
+}
+
+.links a,
+.links button {
+    /* Ajusta el margen izquierdo para separar el enlace de la imagen */
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px;
+    font-weight: 500;
+}

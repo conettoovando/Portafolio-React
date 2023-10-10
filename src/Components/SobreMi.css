@@ -1,0 +1,79 @@
+/* SobreMi.css */
+.mainSobremi {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobreMi {
+    width: 90%;
+    height: 70%;
+    border: 1px solid black;
+    background: rgba(36, 36, 36, 0.4);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.imgContainer {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.imgContainer img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.personal-information {
+    height: 100%;
+    width: 70%;
+}
+
+.tecContainer {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    text-align: center;
+}
+
+
+.tecIcon {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.selectedOption {
+    width: 180px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: #0083CD;
+    margin-right: 20px;
+    color: white;
+    font-size: 1.2rem;
+    transition: all 1s ease-in-out;
+
+}
+
+.noSelectedOption {
+    width: 180px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: #2B2B2B;
+    margin-right: 20px;
+    color: white;
+    font-size: 1.2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.noSelectedOption:hover {
+    cursor: pointer;
+}
