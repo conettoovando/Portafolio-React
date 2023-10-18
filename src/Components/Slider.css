@@ -41,3 +41,38 @@ h3 {
     color: white;
     z-index: 1;
 }
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    section,
+    h3 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 520px) {
+    .contianerSlide {
+        padding: 20px;
+    }
+
+    article {
+        text-align: left;
+        align-items: flex-start;
+
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        text-align: left;
+    }
+
+
+
+    section,
+    h3 {
+        font-size: 1.3rem;
+    }
+}

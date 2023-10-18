@@ -2,7 +2,7 @@ import './Slider.css'
 
 export default function Slider(){
     return (
-        <main>
+        <main className='contianerSlide'>
             <div className="background-image"></div>
             <article>
                 <h1>Bienvenidos 👋</h1>
